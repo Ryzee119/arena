@@ -15,7 +15,7 @@
 int main(void)
 {
     arena_t arena;
-    void *arena_pool[1024];
+    char arena_pool[1024];
 
     arena_init(arena_pool, 1024, &arena);
 
