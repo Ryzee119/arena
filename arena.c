@@ -4,10 +4,6 @@
 #include "arena.h"
 #include <stddef.h>
 
-#ifndef NULL
-#define NULL ((void *)0)
-#endif
-
 #ifndef ARENA_ALIGNMENT_SIZE
 #define ARENA_ALIGNMENT_SIZE (sizeof(void *) - 1)
 #endif

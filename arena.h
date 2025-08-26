@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: CC0-1.0
+// Author: Ryan Wendland 2025
 
 #ifndef ARENA_H
 #define ARENA_H
