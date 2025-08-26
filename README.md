@@ -7,7 +7,7 @@
 * You can disable vsnprintf, stdio and stdarg dependancies by defining `ARENA_DISABLE_VSNPRINTF`. You can also point vsnprintf to a custom implementation.
 
 ## Example
-```
+```c
 #include "../arena.h"
 #include <stdio.h>
 #include <string.h> // For strlen
